@@ -5,6 +5,17 @@ A simple static app that lets you:
 - store them in the browser
 - calculate each user's current age automatically
 
+## Project Notes
+
+This project was created as a simple frontend app for collecting user information and calculating age from the date of birth.
+
+### Steps completed
+- Created the HTML, CSS, and JavaScript files
+- Added a form for name, date of birth, and email
+- Implemented browser storage to keep user data
+- Added automatic age calculation on display
+- Started a local server with `python3 -m http.server 3000`
+
 ## Run
 
 From this folder, start a simple server:
@@ -14,3 +25,7 @@ python3 -m http.server 3000
 ```
 
 Then open http://localhost:3000
+
+## GitHub
+
+The project has been initialized as a Git repository and pushed to GitHub.
