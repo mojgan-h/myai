@@ -29,3 +29,30 @@ Then open http://localhost:3000
 ## GitHub
 
 The project has been initialized as a Git repository and pushed to GitHub.
+
+### Command log used
+
+```bash
+git status --short --branch
+git remote -v
+command -v gh
+gh auth status
+git init
+git config user.name "mojga"
+git config user.email "mojga@example.com"
+git add .
+git commit -m "Initial commit"
+gh repo create myai --public --source=. --remote=origin --push
+git status --short
+git add README.md
+git commit -m "Update README with project notes"
+git push origin HEAD
+```
+
+### CLI checks performed
+
+- Verified that `gh` is installed.
+- Verified that `gh` is authenticated to GitHub.
+- Verified that GitHub CLI is configured to use HTTPS.
+- Verified the repository remote URL.
+- Confirmed the project was successfully pushed to GitHub.
